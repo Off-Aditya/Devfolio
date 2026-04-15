@@ -1,47 +1,76 @@
-# Next.Js Website Tutorial: Create a Stunning Portfolio Website with Nextjs, Tailwind CSS and Framer-motion🌟
+# Aditya's Developer Portfolio 🚀
 
-![GitHub stars](https://img.shields.io/github/stars/codebucks27/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/codebucks27/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
-![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
+A modern, responsive, and highly interactive developer portfolio built with **Next.js**, **React**, **Tailwind CSS**, and animated using **Framer Motion**.
 
-This repository contains starter code for Portfolio website created using NextJs. <br />
+## 🌟 Features
 
-For Demo and Final Code checkout following link👇: <br />
-[Nextjs Portfolio Website](https://devdreaming.com//videos/nextjs-tutorial-build-portfolio-tailwind-css-framer-motion#code-links) <br />
+- **Dynamic Animations:** Smooth page transitions and element animations powered by Framer Motion.
+- **Responsive Design:** Fully responsive layout that looks great on mobile, tablet, and desktop screens using Tailwind CSS.
+- **Contact Form:** Integrated contact form using EmailJS to directly receive emails.
+- **Detailed Sections:**
+  - **About:** Showcasing skills, education, and professional experience.
+  - **Projects:** Dedicated page to highlight featured work and projects.
+  - **Contact:** An interactive way to reach out for collaboration.
+- **Custom Components:** Thoughtfully crafted React components like animated headings, custom icons, and reusable layout structures.
 
-If you want to learn how to create it please follow below tutorial👇: <br />
-https://youtu.be/Yw7yWHigGKI <br />
-[![YouTube Video Views](https://img.shields.io/youtube/views/Yw7yWHigGKI?style=social)](https://youtu.be/Yw7yWHigGKI)<br />
+## 🛠️ Tech Stack
 
----
-✨ Checkout my brand new Saas application -> [AI Headshot Generator](https://www.smartheadshots.ai)
+- **Framework:** [Next.js](https://nextjs.org/) (Pages Router)
+- **Library:** [React](https://reactjs.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animation:** [Framer Motion](https://www.framer.com/motion/)
+- **Email Service:** [EmailJS](https://www.emailjs.com/) (@emailjs/browser)
+- **Deployment & Tooling:** ESLint, PostCSS, Custom Netlify setup (`@netlify/plugin-nextjs`).
 
----
+## 📁 Folder Structure
 
-### Images of The Portfolio Website:
+```text
+.
+├── public/                 # Static assets (images, fonts, etc.)
+└── src/
+    ├── components/         # Reusable React components
+    │   ├── AnimatedText.jsx  # Framer motion text animations
+    │   ├── Education.jsx     # Education timeline/details
+    │   ├── Experience.jsx    # Experience timeline/details
+    │   ├── NavBar.jsx        # Navigation bar
+    │   ├── Skills.jsx        # Skills showcase
+    │   ├── HireMe.jsx        # Call to action component
+    │   └── hooks/            # Custom React hooks
+    ├── pages/              # Next.js Application Pages
+    │   ├── index.js          # Main landing page
+    │   ├── about.jsx         # About me page
+    │   ├── projects.jsx      # Projects showcase
+    │   ├── contact.jsx       # Contact form page
+    │   └── api/              # API routes
+    └── styles/             # Global CSS & Tailwind imports
+```
 
-![Nextjs Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/home-light-desktop.png)
-![Nextjs Portfolio Website Dark Mode](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/home-dark-desktop.png)
-![Next.js Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/about-light-desktop.png)
-![Next js Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/projects-dark-desktop.png)
-![Portfolio Website In Next.js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/articles-light-desktop.png)
-![Responsive Portfolio Website In Nextjs](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/about-light-mobile.png)
-![Responsive Portfolio Website In Next js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/projects-light-mobile.png)
-![Mobile Responsive Portfolio Website In Next.js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/articles-light-mobile.png)
+## 🚀 Getting Started
 
+First, ensure you have Node.js installed. Then, clone the repository and install dependencies:
 
-### Resources Used in This Project
+```bash
+# Install dependencies
+npm install
 
-- Profile image in the home page created by using https://www.midjourney.com/ tool.
-- Profile image in the about page by [Albert Dera](https://unsplash.com/@albertdera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) 
-on [Unsplash](https://unsplash.com/photos/ILip77SbmOE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
-- Fonts from https://fonts.google.com/ <br />
-- Icons from https://iconify.design/ <br />
-- LightBulb Svg from https://lukaszadam.com/illustrations <br />
+# Run the development server
+npm run dev
+```
 
-### External Libraries used in this project:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- [framer-motion](https://www.framer.com/motion/) <br />
-- [Tailwind css](https://tailwindcss.com/) <br />
+## 📦 Build for Production
 
+To create an optimized production build, run:
 
+```bash
+# Build the project
+npm run build
+
+# Start the production server
+npm run start
+```
+
+## 📝 License
+
+This project is created for personal portfolio use.
